@@ -6,7 +6,7 @@ function ProductCard({ product, onAddToCart }) {
   return (
     <div className="product-card">
       <div className="image-wrapper">
-        <img src={`/${image}`} alt={name} className="product-image" />
+        <img src={`${import.meta.env.BASE_URL}${image}`} alt={name} className="product-image" />
       </div>
       <div className="product-info">
         <h3>{name}</h3>

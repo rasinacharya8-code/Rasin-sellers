@@ -49,7 +49,7 @@ function CartDrawer({ isOpen, onClose, cart, updateQuantity, removeFromCart, che
               <div className="cart-items-list">
                 {cart.map((item) => (
                   <div key={item.product.id} className="cart-item">
-                    <img src={`/${item.product.image}`} alt={item.product.name} className="cart-item-image" />
+                    <img src={`${import.meta.env.BASE_URL}${item.product.image}`} alt={item.product.name} className="cart-item-image" />
                     <div className="cart-item-details">
                       <h4>{item.product.name}</h4>
                       <p className="cart-item-price">NPR {item.product.price.toLocaleString()}</p>
