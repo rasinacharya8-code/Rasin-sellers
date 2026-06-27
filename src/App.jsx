@@ -20,7 +20,8 @@ function App() {
       { id: "p1", name: "Luxe Stride Gold-Thread Sneakers", price: 125000, image: "shoes.png", rating: 4.9 },
       { id: "p2", name: "Aether Chronograph Obsidian Watch", price: 285000, image: "watch.png", rating: 4.8 },
       { id: "p3", name: "AeroSound Elite Gold-Leaf Headphones", price: 195000, image: "headphones.png", rating: 4.9 },
-      { id: "p4", name: "Atelier Silk-Cashmere Oversized Hoodie", price: 98000, image: "hoodie.png", rating: 4.7 }
+      { id: "p4", name: "Atelier Silk-Cashmere Oversized Hoodie", price: 98000, image: "hoodie.png", rating: 4.7 },
+      { id: "p5", name: "Aurelia Diamond Solitaire Ring", price: 420000, image: "ring.png", rating: 5.0 }
     ];
     setProducts(mockProducts);
   }, []);
